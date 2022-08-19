@@ -1,0 +1,125 @@
+{
+  "data": {
+    "md5": "18a76f2b28581637bd57354bdf50595c",
+    "path": "asset/UI/Def.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "id": {
+            "value": "59f3e092-c67d-492c-ad13-8e8d098ab841"
+          },
+          "name": "Submit",
+          "pos": {
+            "UDim_Y": {
+              "Offect": 200
+            }
+          },
+          "Text": "Round"
+        },
+        {
+          "__OBJ_TYPE": "Editbox",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "id": {
+            "value": "2cd215d9-51be-4a51-be4e-e820651d896a"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Offect": 150
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "4a9b1b77-235d-4858-b86f-2dab01210b22"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Offect": 100
+            }
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 29.21602356434
+            }
+          },
+          "VertFormatting": "CentreAligned"
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "Alpha": 0.991,
+          "id": {
+            "value": "a1d68305-8d8a-49ab-a188-7432c0f9479a"
+          },
+          "name": "Indicator",
+          "pos": {
+            "UDim_X": {
+              "Offect": 1141.8082632381
+            },
+            "UDim_Y": {
+              "Offect": 374.13897211203
+            }
+          },
+          "Text": "Show"
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font_size": 22,
+          "id": {
+            "value": "270ece5a-8a21-461f-a80a-6b866d4a8e52"
+          },
+          "name": "Text1",
+          "pos": {
+            "UDim_X": {
+              "Offect": 56.546687722215
+            },
+            "UDim_Y": {
+              "Offect": 296.37461528606
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 495.55347585677
+            }
+          },
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "1ec0dc07-9a7d-49af-bd35-711009f3b649"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughAlpha"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "18a76f2b28581637bd57354bdf50595c",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

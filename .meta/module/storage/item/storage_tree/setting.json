@@ -1,0 +1,63 @@
+{
+  "data": {
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "3a530b74-0e39-4dcf-a5db-e24268381ee8",
+        "cameraCollideEnable": false,
+        "density": 2.2,
+        "friction": 0.15,
+        "id": "8759662716765863937",
+        "massCenter": {
+          "x": -7,
+          "y": 1.0000138282776,
+          "z": -7
+        },
+        "material": {
+          "alpha": 0.7,
+          "texture": "part_boli.tga"
+        },
+        "name": "Indicator",
+        "partNavMeshType": "0",
+        "position": {
+          "x": -7,
+          "y": 1.0000138282776,
+          "z": -7
+        },
+        "restitution": 0.18,
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "a3eb9d39-0d31-4210-9920-067746220203",
+        "density": 4.5,
+        "friction": 0.53,
+        "id": "8761083466615980033",
+        "massCenter": {
+          "x": 23,
+          "y": 1.0000987052917,
+          "z": -27
+        },
+        "material": {
+          "texture": "part_eluanshi.tga"
+        },
+        "name": "Build_Cbbl",
+        "position": {
+          "x": 23,
+          "y": 1.0000987052917,
+          "z": -27
+        },
+        "restitution": 0.17,
+        "useAnchor": true,
+        "useGravity": false
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4fe72ac5a3b95229fb9c6444dc39b82e"
+    },
+    "VERSION": "0.22"
+  }
+}

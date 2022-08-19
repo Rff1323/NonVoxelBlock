@@ -1,0 +1,4 @@
+CreateBlock {
+	Test(Message = Concat(p1 = "KEPENCET 2", p2 = " "))
+	CreatePartByPartStorage(id = "8761083466615980033", map = "map001", pos = GetCustomTriggerParams(key = "Pos"))
+}

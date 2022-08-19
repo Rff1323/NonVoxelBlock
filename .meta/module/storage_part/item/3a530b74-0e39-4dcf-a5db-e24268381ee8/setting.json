@@ -1,0 +1,158 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreatePartByPartStorage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_StorageEntry",
+                        "rawval": {
+                          "id": "8761083466615980033",
+                          "name": "Build_Cbbl"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "action": "d50b31e7-f364-4942-9595-76992f5ccc29"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "312e6701-b3e3-4a27-a921-7323a0eeddee"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "cc39bcbe-7596-4dae-ab55-7f1bb356d349"
+              },
+              "pos": {
+                "x": 613,
+                "y": 348
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "dcdb35b7-2610-477e-ad0b-41c29f62214c"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d50b31e7-f364-4942-9595-76992f5ccc29"
+              },
+              "pos": {
+                "x": 1204,
+                "y": 324
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "from"
+                }
+              ],
+              "id": {
+                "value": "dcdb35b7-2610-477e-ad0b-41c29f62214c"
+              },
+              "pos": {
+                "x": 1541,
+                "y": 419
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetPartPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "ca023233-8cd1-4c7a-ad43-d87a2ea4c0ee"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "312e6701-b3e3-4a27-a921-7323a0eeddee"
+              },
+              "pos": {
+                "x": 1163,
+                "y": 550
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "ca023233-8cd1-4c7a-ad43-d87a2ea4c0ee"
+              },
+              "pos": {
+                "x": 1477,
+                "y": 626
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "76ed1dff-d2b2-4bac-aca4-d663e6c23b1d"
+            },
+            "type": "Trigger_PartClicked"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "cc39bcbe-7596-4dae-ab55-7f1bb356d349"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "8c3362e2-6eaa-4fff-9325-36f8d8ddac5a"
+            }
+          },
+          "type": "Trigger_PartClicked"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "17faf682a7b3aeef2182df599530e10f"
+    },
+    "VERSION": "0.22"
+  }
+}

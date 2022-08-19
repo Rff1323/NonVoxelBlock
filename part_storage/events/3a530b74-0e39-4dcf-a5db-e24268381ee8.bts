@@ -1,0 +1,7 @@
+PART_CLICKED {
+	CreatePartByPartStorage(
+		id = "8761083466615980033",
+		map = GetEntityMap(entity = $from),
+		pos = GetPartPosition(part = $part1)
+	)
+}
