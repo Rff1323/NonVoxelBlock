@@ -12,7 +12,7 @@
       "enable": true
     },
     "AI_home": {
-      "homeSize": 5.0
+      "homeSize": 5
     },
     "AI_patrol": {
       "patrolMode": "randomPath"
@@ -44,9 +44,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b5a5ac55d874c1f8b13f7fd4794d0ead",
+      "setting.json": "2c78b0e738f24a2469a79546df917144",
       "triggers.bts": ""
     },
-    "VERSION": "0.22"
+    "VERSION": "0.23"
   }
 }

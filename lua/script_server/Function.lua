@@ -25,6 +25,7 @@ function Function:RotationToV3(yaw,pitch)
   
   return Vector3.new(x,y,z)
 end
+
 --
 function Function:RandomText(param)
   return param

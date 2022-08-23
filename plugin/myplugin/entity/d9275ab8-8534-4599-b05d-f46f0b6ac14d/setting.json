@@ -4,10 +4,13 @@
   "actorGirlName": "asset/Actor/charactor/charactor_girl/character_girl.actor",
   "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
   "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": false,
   "autoMove": false,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
   "avoidCliffHight": 5,
+  "boundingScaleWithSize": true,
   "canClick": false,
   "canHurtMove": true,
   "canJump": true,
@@ -15,6 +18,8 @@
   "canPickOnDie": false,
   "canTurnHead": false,
   "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 10,
+  "chaseInterval": 10,
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
@@ -24,14 +29,14 @@
       "z": 0.6
     },
     "offset": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
+      "x": 0,
+      "y": 0,
+      "z": 0
     },
     "rotation": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
+      "x": 0,
+      "y": 0,
+      "z": 0
     },
     "type": "Box"
   },
@@ -54,21 +59,29 @@
   "hideHp": 1,
   "hideName": false,
   "homeSize": 20,
-  "hpBarColor": 4294967551.0,
+  "hpBarColor": 4294967551,
   "hpBarHeight": 0.2,
   "hpBarWidth": 1,
+  "hpFaceCamera": 0,
   "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
   "isAIGoHomePos": true,
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
   "maxHp": 20,
+  "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,
   "name": "entity_d9275ab8-8534-4599-b05d-f46f0b6ac14d",
   "needCheckTouch": true,
+  "patrolDistance": 5,
   "randomPlayDeadActions": [
     ""
   ],

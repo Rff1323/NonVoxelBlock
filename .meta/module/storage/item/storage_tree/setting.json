@@ -3,6 +3,7 @@
     "instances": [
       {
         "__OBJ_TYPE": "Instance_Part_Storage",
+        "batchType": "Dynamic",
         "btsKey": "3a530b74-0e39-4dcf-a5db-e24268381ee8",
         "cameraCollideEnable": false,
         "density": 2.2,
@@ -30,6 +31,7 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part_Storage",
+        "batchType": "Dynamic",
         "btsKey": "a3eb9d39-0d31-4210-9920-067746220203",
         "density": 4.5,
         "friction": 0.53,
@@ -56,8 +58,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4fe72ac5a3b95229fb9c6444dc39b82e"
+      "setting.json": "670973be6281ff579c35a4b4c3e9c956"
     },
-    "VERSION": "0.22"
+    "VERSION": "0.23"
   }
 }
