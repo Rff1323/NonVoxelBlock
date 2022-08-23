@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "e80340c03f567e1da95fb49e1084e0a5",
+    "md5": "ba064835dd764413c9f871870a2c45db",
     "path": "asset/UI/Def.layout",
     "root": {
       "anchor": {
@@ -8,69 +8,6 @@
         "VerticalAlignment": "Centre"
       },
       "children": [
-        {
-          "__OBJ_TYPE": "Button",
-          "anchor": {
-            "HorizontalAlignment": "Centre"
-          },
-          "id": {
-            "value": "7c9e97ce-1a0c-4471-8c27-9cbccd32c5bc"
-          },
-          "name": "Submit",
-          "pos": {
-            "UDim_Y": {
-              "Offect": 200
-            }
-          },
-          "Text": "Round",
-          "text_key": {
-            "value": "asset/UI/Def.layout.Button#c4d39e44-9c60-4b2d-9030-889aee81c544"
-          },
-          "Visible": false
-        },
-        {
-          "__OBJ_TYPE": "Editbox",
-          "anchor": {
-            "HorizontalAlignment": "Centre"
-          },
-          "id": {
-            "value": "4a430718-eefa-4180-ae65-ee929ef2d5f5"
-          },
-          "pos": {
-            "UDim_Y": {
-              "Offect": 150
-            }
-          },
-          "text_key": {
-            "value": "asset/UI/Def.layout.Editbox#f909ecfa-d83b-45d4-bfb8-7caf41c249a1"
-          },
-          "Visible": false
-        },
-        {
-          "__OBJ_TYPE": "StaticText",
-          "anchor": {
-            "HorizontalAlignment": "Centre"
-          },
-          "HorzFormatting": "CentreAligned",
-          "id": {
-            "value": "cace4c55-cc71-4765-9084-458a6f9f3458"
-          },
-          "pos": {
-            "UDim_Y": {
-              "Offect": 100
-            }
-          },
-          "size": {
-            "UDim_Y": {
-              "Offect": 29.21602356434
-            }
-          },
-          "text_key": {
-            "value": "asset/UI/Def.layout.StaticText#870021d9-53d5-4737-b7ac-fae0e5f0336e"
-          },
-          "VertFormatting": "CentreAligned",
-          "Visible": false
-        },
         {
           "__OBJ_TYPE": "Button",
           "Alpha": 0.991,
@@ -90,32 +27,6 @@
           "text_key": {
             "value": "asset/UI/Def.layout.Button#51afccf3-9321-4480-ad57-ef5ab54b0ad6"
           }
-        },
-        {
-          "__OBJ_TYPE": "StaticText",
-          "Font_size": 22,
-          "id": {
-            "value": "7e1d0c26-10b2-47d4-9f45-5328566f049e"
-          },
-          "name": "Text1",
-          "pos": {
-            "UDim_X": {
-              "Offect": 56.546687722215
-            },
-            "UDim_Y": {
-              "Offect": 296.37461528606
-            }
-          },
-          "size": {
-            "UDim_X": {
-              "Offect": 495.553475856765
-            }
-          },
-          "text_key": {
-            "value": "asset/UI/Def.layout.StaticText#de48b64d-d97a-4bab-b044-8f9a92d92ad8"
-          },
-          "VertFormatting": "CentreAligned",
-          "Visible": false
         }
       ],
       "id": {
@@ -136,7 +47,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "e80340c03f567e1da95fb49e1084e0a5",
+      "layout": "ba064835dd764413c9f871870a2c45db",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.23"
