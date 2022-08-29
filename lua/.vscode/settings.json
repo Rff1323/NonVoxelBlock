@@ -1,6 +1,10 @@
 {
     "Lua.diagnostics.globals": [
         "Entity",
-        "Vector3"
+        "Vector3",
+        "World",
+        "Timer",
+        "Trigger",
+        "DropItemServer"
     ]
 }

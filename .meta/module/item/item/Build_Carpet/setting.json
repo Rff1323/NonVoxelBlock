@@ -1,0 +1,24 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Actor_mesh/bed_armor_helmet_green.mesh"
+    },
+    "name": {
+      "value": "item_Build_Carpet"
+    },
+    "stack_count_max": 50
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "88cf5fdf35fcf86eb983a7d80d3dedd9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

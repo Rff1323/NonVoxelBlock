@@ -1,0 +1,24 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/BlockTreeGrass/Balok.mesh"
+    },
+    "name": {
+      "value": "item_Build_Grs"
+    },
+    "stack_count_max": 50
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "79459a8f42b8fb83d4e9ff46a9905ca9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

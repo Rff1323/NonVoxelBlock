@@ -1,0 +1,91 @@
+{
+  "data": {
+    "name": {
+      "value": "SetClickEvent"
+    },
+    "params": [
+      {
+        "param_name": "Part",
+        "param_type": "T_Part"
+      }
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "2dcba441-ea0a-49a6-bd41-1486028de570",
+                      "param_name": "Part"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_6"
+                }
+              ],
+              "id": {
+                "value": "94fefb8f-b009-4860-adf5-d1fe15078d89"
+              },
+              "pos": {
+                "x": 641,
+                "y": 395
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "Part"
+                }
+              ],
+              "function_name": "SetClickEvent",
+              "id": {
+                "value": "2dcba441-ea0a-49a6-bd41-1486028de570"
+              },
+              "pos": {
+                "x": 977,
+                "y": 547
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "d1dc2df5-d08a-4fcd-bcc4-63cc62449a45"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "SetClickEvent",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "94fefb8f-b009-4860-adf5-d1fe15078d89"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "0baac9d5-1f3b-47d6-b7d7-d84b34715f3c"
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "12c71b6a430495f865e1a0e0c58ed726",
+      "triggers.bts": "798796d12b7f32e5fe07b62620bf097f"
+    },
+    "VERSION": "0.23"
+  }
+}

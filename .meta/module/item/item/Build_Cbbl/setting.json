@@ -1,0 +1,24 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Actor_mesh/bed_armor_helmet_red.mesh"
+    },
+    "name": {
+      "value": "item_Build_Cbbl"
+    },
+    "stack_count_max": 50
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "241da8a2e13f14446b9c99cb6134ca92",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "ba064835dd764413c9f871870a2c45db",
+    "md5": "9e273ccda55d6fcd694a66e7d4d167ea",
     "path": "asset/UI/Def.layout",
     "root": {
       "anchor": {
@@ -12,7 +12,7 @@
           "__OBJ_TYPE": "Button",
           "Alpha": 0.991,
           "id": {
-            "value": "867947b1-0aa4-4569-a6f5-d6a073ca52ee"
+            "value": "0c9978d0-ed2d-4e45-b223-5cd920617d8f"
           },
           "name": "Indicator",
           "pos": {
@@ -23,14 +23,14 @@
               "Offect": 374.13897211203
             }
           },
-          "Text": "Show",
+          "Text": "asset/UI/Def.layout.Button#51afccf3-9321-4480-ad57-ef5ab54b0ad6",
           "text_key": {
-            "value": "asset/UI/Def.layout.Button#51afccf3-9321-4480-ad57-ef5ab54b0ad6"
+            "value": "asset/UI/Def.layout.Button#ca5d62f3-02b4-489c-b115-f3a188489949"
           }
         }
       ],
       "id": {
-        "value": "cf2c11f0-d8ca-45d7-baac-3ea4daafdb93"
+        "value": "9b8b43fb-ac18-4f1e-87b7-57ae3171b54b"
       },
       "size": {
         "UDim_X": {
@@ -47,7 +47,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "ba064835dd764413c9f871870a2c45db",
+      "layout": "9e273ccda55d6fcd694a66e7d4d167ea",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.23"

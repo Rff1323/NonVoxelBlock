@@ -17,9 +17,7 @@ function Building:ShowIndicator(plr)
     indicatorPart[userID] = partStorage:FindFirstChild("Indicator"):Clone()
     local event = indicatorPart[userID]:GetEvent("OnClick")
     event:Bind(function(part,entity,pos)
-      local block = partStorage:FindFirstChild("Build_Cbbl"):Clone()
-      block.Parent = playerList[userID].map.Root
-      block.WorldPosition = indicatorPart[userID]:getPosition()
+      Global.Function:CreateBlock(entity,indicatorPart[userID]:getPosition())
     end)
 --
     
@@ -47,7 +45,6 @@ function Building:ShowIndicator(plr)
     timer[userID].Loop = true
     timer[userID]:Start()
     --
-    
   end
 end
 --

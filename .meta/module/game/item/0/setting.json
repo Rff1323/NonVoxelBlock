@@ -30,6 +30,40 @@
         "z": 2
       }
     },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "BreakBlock"
+            },
+            "params": [
+              {
+                "param_name": "Part",
+                "param_type": "T_Part"
+              }
+            ],
+            "register_id": "aec79d12-7712-42d1-8c5f-23c17585b0f3",
+            "type": "Trigger_Custom"
+          },
+          "custom_trigger_name": "BreakBlock",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "aec79d12-7712-42d1-8c5f-23c17585b0f3"
+            }
+          },
+          "type": "Trigger_Custom"
+        }
+      ]
+    },
     "unlimitedPlayTime": true,
     "vars": {
       "global": [
@@ -43,7 +77,7 @@
     "EXPORT": {
       "setting.json": "ed2439aa2a643bb5f020d23d9abf9f28",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
-      "triggers.bts": "",
+      "triggers.bts": "023b4cbb7c511344075027bb6027a8ed",
       "triggers_client.bts": ""
     },
     "VERSION": "0.23"

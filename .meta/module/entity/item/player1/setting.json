@@ -18,8 +18,7 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "height": 1.7,
-      "radius": 0.43,
+      "height": 1.5,
       "type": "Capsule"
     },
     "canRevive": true,
@@ -40,12 +39,219 @@
     },
     "reviveTime": {
       "value": 40
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "8aa60eba-4091-411c-8afc-483692d857e6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/Build_Cbbl"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3b8771ec-2390-47db-8599-38da2cba6c3d"
+              },
+              "pos": {
+                "x": 700,
+                "y": 218
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8aa60eba-4091-411c-8afc-483692d857e6"
+              },
+              "pos": {
+                "x": 1072,
+                "y": 291
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "8ad80578-0c3b-4ffa-8265-642a539c2ab6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/Build_Carpet"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f38659cc-c2f3-4e4a-9193-c9b959583c4c"
+              },
+              "pos": {
+                "x": 667,
+                "y": 432
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8ad80578-0c3b-4ffa-8265-642a539c2ab6"
+              },
+              "pos": {
+                "x": 1145,
+                "y": 474
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "8ea9697b-6d2d-4832-ac4d-d34ba5c0f337"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/Build_Grs"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "704bee05-fd45-462c-850a-fe72bdf8d754"
+              },
+              "pos": {
+                "x": 696,
+                "y": 656
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8ea9697b-6d2d-4832-ac4d-d34ba5c0f337"
+              },
+              "pos": {
+                "x": 1174,
+                "y": 698
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "24ae87be-8ef8-42a7-95c6-804d7dfd8776"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "3b8771ec-2390-47db-8599-38da2cba6c3d"
+                  },
+                  {
+                    "action": "f38659cc-c2f3-4e4a-9193-c9b959583c4c"
+                  },
+                  {
+                    "action": "704bee05-fd45-462c-850a-fe72bdf8d754"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "9f4c0795-d777-438c-a891-1c9f1775bd24"
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
       "setting.json": "2c78b0e738f24a2469a79546df917144",
-      "triggers.bts": ""
+      "triggers.bts": "e67e62282a2407d2cc8fcbd1c71fd165"
     },
     "VERSION": "0.23"
   }

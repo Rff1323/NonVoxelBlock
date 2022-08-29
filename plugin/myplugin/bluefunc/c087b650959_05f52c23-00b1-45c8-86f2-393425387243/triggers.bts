@@ -1,0 +1,3 @@
+SetClickEvent {
+	ExecScript(Part = GetFuncsParamsVar(key = "Part"), script_name = "ScriptableNode_6")
+}

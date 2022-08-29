@@ -1,0 +1,5 @@
+ENTITY_ENTER {
+	AddItem(cfg = "myplugin/Build_Cbbl", count = 50, entity = $obj1, reason = "")
+	AddItem(cfg = "myplugin/Build_Carpet", count = 50, entity = $obj1, reason = "")
+	AddItem(cfg = "myplugin/Build_Grs", count = 50, entity = $obj1, reason = "")
+}

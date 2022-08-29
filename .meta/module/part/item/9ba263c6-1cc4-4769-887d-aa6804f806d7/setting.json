@@ -1,10 +1,89 @@
 {
   "data": {
-    "__OBJ_TYPE": "PartCfg"
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "SetClickEvent"
+                      }
+                    },
+                    {
+                      "key": "Part",
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "07ea460a-68cd-4d66-8591-d4d1592179b2"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c087b650959_05f52c23-00b1-45c8-86f2-393425387243",
+              "func_name": "SetClickEvent",
+              "id": {
+                "value": "b4985f2a-9161-49f1-84ca-394864cc5788"
+              },
+              "pos": {
+                "x": 620,
+                "y": 390
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part"
+                }
+              ],
+              "id": {
+                "value": "07ea460a-68cd-4d66-8591-d4d1592179b2"
+              },
+              "pos": {
+                "x": 921,
+                "y": 478
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "68138835-629d-430d-97df-2829e5910330"
+            },
+            "type": "Trigger_PartCreated"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "b4985f2a-9161-49f1-84ca-394864cc5788"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "dce2fc76-129a-44a1-b8ae-62d15f341d89"
+            }
+          },
+          "type": "Trigger_PartCreated"
+        }
+      ]
+    }
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": ""
+      "triggers.bts": "8952bda706e7c10d0326c8a498a00193"
     },
     "VERSION": "0.23"
   }

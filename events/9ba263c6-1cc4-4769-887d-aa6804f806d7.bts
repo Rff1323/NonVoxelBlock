@@ -1,0 +1,3 @@
+PART_CREATED {
+	ExecFunction(func_name = "SetClickEvent", Part = $part)
+}

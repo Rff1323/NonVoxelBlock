@@ -77,22 +77,6 @@
           "z": 75
         },
         "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "batchType": "Dynamic",
-        "btsKey": "d45d2a8f-6ce5-4fe9-83be-c37f50c97022",
-        "density": 0.6,
-        "friction": 0.46,
-        "id": "8764012638111465473",
-        "material": {
-          "texture": "part_ditan.tga"
-        },
-        "position": {
-          "y": 1.0000162124634,
-          "z": -5
-        },
-        "restitution": 0.06
       }
     ],
     "name": {
@@ -104,7 +88,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "799a8f49948cbf7bf21484fcfc4a6a7f"
+      "setting.json": "2908432c54eb7ac88706c4d50f9c7b12"
     },
     "VERSION": "0.23"
   }
